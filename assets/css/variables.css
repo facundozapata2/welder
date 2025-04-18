@@ -1,0 +1,32 @@
+
+:root{
+    /* Background Colors */
+    --color-bg-dark: #1c1c1c;
+    --color-bg-black: #000000;
+    --color-bg-brown: #171212;
+    --color-bg-brownCard: #261f1c;
+  
+    /* Accent / Secondary Elements */
+    --color-steel-gray: #43464b;
+  
+    /* outline */
+
+    --color-outline-brown: #362b26;
+
+    /* Typography */
+    --color-text-white: #ffffff;
+    --color-text-light-gray: #d4d4d4;
+    --color-text-dark-gray: rgb(178, 156, 149);
+  
+    /* Red Accents / CTA Buttons */
+    --color-red-primary: #ff0000;
+    --color-red-alt: #d32f2f;
+  
+    /* Orange Accents / Highlights */
+    --color-orange-primary: #ff6f00;
+    --color-orange-alt: #f57c00;
+  
+    /* Electric Blue Accents / Links */
+    --color-blue-primary: #2979ff;
+    --color-blue-alt: #536dfe;
+}

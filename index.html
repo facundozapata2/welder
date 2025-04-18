@@ -3,6 +3,9 @@
 <head>
     <link rel="stylesheet" href="./assets/css/main.css">
     <script src="https://kit.fontawesome.com/72fb91e857.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="./assets/css/map.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -21,7 +24,7 @@
 
     <section class="title-img">
         <span>Mas de 30 años soldando</span>
-        <img src="./assets/images/man-working-with-argon-welding-machine-garage.jpg" alt="">
+        <img src="./assets/images/man-working-with-argon-welding-machine-garage.webp" alt="" loading="lazy">
         <div class="image-text__absolute">
             <h2>SOLDADURA ESPECIAL</h2>
             <a href="https://wa.me/+5491132782419" title="whatsapp" target="_blank" rel="noopener noreferrer">Contactame <i class="fa-brands fa-whatsapp"></i></a>
@@ -57,52 +60,51 @@
             </div>
         </div>
     </section>
-
     <div class="experience-card__container">
         <div class="experience-card">
-            <img src="./assets/images/man-with-mask-welding-metal-atelier.jpg" alt="">
+            <img src="./assets/images/man-with-mask-welding-metal-atelier.webp" alt="" loading="lazy">
             <div class="txt-container">
                 <span>+30 años de experiencia</span>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusamus sunt quisquam facilis id corporis vel!</p>
             </div>
         </div>
         <div class="experience-card">
-            <img src="./assets/images/man-with-mask-welding-metal-atelier.jpg" alt="">
+            <img src="./assets/images/man-with-mask-welding-metal-atelier.webp" alt="" loading="lazy">
             <div class="txt-container">
                 <span>+30 años de experiencia</span>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusamus sunt quisquam facilis id corporis vel!</p>
             </div>
         </div>
         <div class="experience-card">
-            <img src="./assets/images/man-with-mask-welding-metal-atelier.jpg" alt="">
+            <img src="./assets/images/man-with-mask-welding-metal-atelier.webp" alt="" loading="lazy">
             <div class="txt-container">
                 <span>+30 años de experiencia</span>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusamus sunt quisquam facilis id corporis vel!</p>
             </div>
         </div>
         <div class="experience-card">
-            <img src="./assets/images/man-with-mask-welding-metal-atelier.jpg" alt="">
+            <img src="./assets/images/man-with-mask-welding-metal-atelier.webp" alt="" loading="lazy">
             <div class="txt-container">
                 <span>+30 años de experiencia</span>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusamus sunt quisquam facilis id corporis vel!</p>
             </div>
         </div>
         <div class="experience-card">
-            <img src="./assets/images/man-with-mask-welding-metal-atelier.jpg" alt="">
+            <img src="./assets/images/man-with-mask-welding-metal-atelier.webp" alt="" loading="lazy">
             <div class="txt-container">
                 <span>+30 años de experiencia</span>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusamus sunt quisquam facilis id corporis vel!</p>
             </div>
         </div>
         <div class="experience-card">
-            <img src="./assets/images/man-with-mask-welding-metal-atelier.jpg" alt="">
+            <img src="./assets/images/man-with-mask-welding-metal-atelier.webp" alt="" loading="lazy">
             <div class="txt-container">
                 <span>+30 años de experiencia</span>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusamus sunt quisquam facilis id corporis vel!</p>
             </div>
         </div>
         <div class="experience-card">
-            <img src="./assets/images/man-with-mask-welding-metal-atelier.jpg" alt="">
+            <img src="./assets/images/man-with-mask-welding-metal-atelier.webp" alt="" loading="lazy">
             <div class="txt-container">
                 <span>+30 años de experiencia</span>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusamus sunt quisquam facilis id corporis vel!</p>
@@ -110,9 +112,13 @@
         </div>
     </div>
 
-    <script type="module" src="./assets/js/main.js"></script>
-    <script type="module" src="./assets/js/menuToggle.js"></script>
-    <script type="module" src="./assets/js/footer.js"></script>
+    <section class="location">
+        <div class="map" id="map"></div>
+    </section>
+
+    <!-- scripts -->
+    <script type="module" src="./assets/js/map.js"></script>
+    <!-- <script type="module" src="./assets/js/main.js"></script> -->
 
 
 </body>
