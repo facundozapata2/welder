@@ -39,6 +39,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* reset ends */
@@ -282,8 +283,7 @@ body{
 }
 
 /* #copyPhoneBtn:active::before, */
-#copyPhoneBtn:hover::before,
-#copyPhoneBtn:focus::before{
+#copyPhoneBtn:hover::before{
     opacity: 1;
 }
 
