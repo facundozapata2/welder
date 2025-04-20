@@ -116,6 +116,7 @@
         <div class="map" id="map"></div>
     </section> -->
 
+
     <section class="location">
         <h4 class="location-title">Mi ubicación</h4>
         <div id="map" class="map">
@@ -135,15 +136,13 @@
         </a>
     </section>
       
-    <section class="contact-me">
+    <footer class="contact-me">
         <span class="contact-me__title">CONTACTAME</span>
         <div class="buttons">
             <div class="phone-number">
                 <button class="copy-phone__btn" id="copyPhoneBtn">
                     11 3278-2419
                     <i class="fa-solid fa-clipboard-user fa-xl" id="copyIcon"></i>
-                    <!-- tiene que pasar al siguiente icono si copiar al portapapeles se realiza con exito -->
-                    <!-- <i class="fa-solid fa-clipboard-check"></i> -->
                 </button>
                 <a href="https://wa.me/+5491132782419" title="whatsapp" target="_blank" rel="noopener noreferrer">Whatsapp<i class="fa-brands fa-whatsapp fa-xl"></i></a>
                 <a href="tel:+5491132782419" title="telefono" target="_blank" rel="noopener noreferrer">Telefono<i class="fa-solid fa-phone fa-xl"></i></a>                
@@ -156,10 +155,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 
     <!-- scripts -->
+    <!-- mapa interactivo section .location -->
     <script type="module" src="./assets/js/map.js"></script>
+    <!-- boton para copiar al portapapeles -->
     <script type="module" src="./assets/js/copyNumberToClipBoard.js"></script>
 </body>
 </html>
